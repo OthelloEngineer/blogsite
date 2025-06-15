@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
-
 @custom-variant dark (&:is(.dark *));
 
 @theme {
   --font-inter: 'Inter', sans-serif;
+  --font-theme: 'Roboto Slab', serif;
   --color-theme-50: oklch(98.5% 0.002 247.839);
   --color-theme-100: oklch(96.7% 0.003 264.542);
   --color-theme-200: oklch(92.8% 0.006 264.531);
